@@ -396,7 +396,7 @@ class VirtualMachine(PoolElement):
 
 class VirtualMachinePool(Pool):
     METHODS = {
-        'info': 'vmpool.infoextended',
+        'info': 'vmpool.info',
     }
 
     def __init__(self, client):
